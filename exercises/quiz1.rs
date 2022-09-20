@@ -5,15 +5,25 @@
 // - If
 
 // Mary is buying apples. The price of an apple is calculated as follows:
+// - 一个苹果2沙司
 // - An apple costs 2 rustbucks.
+////-如果玛丽买了40多个苹果，每个苹果只卖一个沙司！
 // - If Mary buys more than 40 apples, each apple only costs 1 rustbuck!
+
 // Write a function that calculates the price of an order of apples given
 // the quantity bought. No hints this time!
 
-// I AM NOT DONE
 
 // Put your function here!
 // fn calculate_price_of_apples {
+fn calculate_price_of_apples(num:i32)->i32{
+    if num >40{
+        return num*1;
+    }else {
+        return num *2;
+    }
+}
+
 
 // Don't modify this function!
 #[test]
