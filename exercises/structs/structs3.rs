@@ -4,13 +4,12 @@
 // Make the code compile and the tests pass!
 // Execute `rustlings hint structs3` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 #[derive(Debug)]
 struct Package {
-    sender_country: String,
-    recipient_country: String,
-    weight_in_grams: i32,
+    sender_country: String, //发件国家/地区
+    recipient_country: String,//收件人_国家
+    weight_in_grams: i32, //重量
 }
 
 impl Package {
@@ -26,12 +25,19 @@ impl Package {
         }
     }
 
-    fn is_international(&self) -> ??? {
+    fn is_international(&self) -> bool {
         // Something goes here...
+        if self.sender_country == self.recipient_country{ //收件地址相同，非国际
+            false
+        }else{
+            true
+        }
     }
 
-    fn get_fees(&self, cents_per_gram: i32) -> ??? {
+    fn get_fees(&self, cents_per_gram: i32) -> i32 {
         // Something goes here...
+        self.weight_in_grams * cents_per_gram
+        
     }
 }
 
