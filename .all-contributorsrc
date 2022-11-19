@@ -1659,6 +1659,51 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "tfpk",
+      "name": "Tom Kunc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10906982?v=4",
+      "profile": "http://tfpk.dev",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "mfurak",
+      "name": "Marek Furák",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38523093?v=4",
+      "profile": "https://github.com/mfurak",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "winterqt",
+      "name": "Winter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78392041?v=4",
+      "profile": "https://winter.cafe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MoritzBoehme",
+      "name": "Moritz Böhme",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42215704?v=4",
+      "profile": "https://moritzboeh.me",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "craymel",
+      "name": "craymel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71062756?v=4",
+      "profile": "https://github.com/craymel",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 8,
